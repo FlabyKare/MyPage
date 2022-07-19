@@ -1,0 +1,49 @@
+$col: #000;
+$col1: #d2d2d2;
+
+.thanks_body{
+    max-height: 100vh;
+    padding-top: 6%;
+    background:#21c0dc;
+}
+.thanks_wrapper{
+    margin:  auto;
+
+    a:-webkit-any-link {
+        color: $col;
+    }
+
+    .container{
+        font-family: 'Poppins', sans-serif;
+        font-size: 35px;
+        line-height: 55px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .thanks_title{
+
+
+            color: $col1;
+    }
+    .thanks_subtitle{
+
+            color: $col1;
+            margin-bottom: 2%;
+    }
+    .thanks_button{
+
+
+            font-size: 30px;
+            border-radius: 20px;
+            padding: 10px 70px;
+            background-color: #5cd7ec;
+            transition:.25s;
+        
+            &:hover{
+                background-color: #4db7ca;
+                color: #d6d6d6;
+            
+            }
+    }
+}
+

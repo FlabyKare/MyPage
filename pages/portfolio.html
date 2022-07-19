@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="../css/main.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site_portfolio.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>WebMaster</title>
+</head>
+<body>
+    
+<header>
+    <div class="header_wrapper">
+        <nav class="head_links">
+            <a href="../index.html" class="logo">Беслан Соблиров</a>
+            <div class="nav_links">
+                <a class="nav_link_item" href="portfolio.html">Портфолио</a>
+                <a  class="message_for_user popup-open" style="--clr:#1e9bff" > <span>Связаться</span><i></i></a>
+            </div>
+
+        </nav>
+
+        <div class="popup_fade_before"></div>
+        <div class="popup-fade">
+            <div class="popup">
+                <div class="close_popup">
+                    <img class="close_icon" width="100%" src="../img/close.png" alt="">
+                </div>
+              <div class="popup-title">Оставить заявку</div>
+              <form>
+    
+    
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="Заказ с моего сайта">
+                <input type="hidden" name="admin_email" value="beslansoblirov074@gmail.com">
+                <input type="hidden" name="form_subject" value='"Заявка - Main"'>
+                <!-- END Hidden Required Fields -->
+        
+        
+                    <input class="form_input form_name" type="text" name="Name"  placeholder="Ваше имя" required minlength="4" maxlength="15">
+                    
+        
+                    <input class="form_input form_tel tel" type="tel" name="Telephone" placeholder="+7 (XXX) XXX XX XX" required> 
+        
+                    <input class="form_input form_site" type="text" name="Site" placeholder="Сайт или соц. сеть (Если есть)" >
+        
+                    <input class="form_input form_btn popup-btn" type="submit" value="Оставить заявку">
+        
+        
+                  </form>
+                  <a class="form_link" target="_blank" href="pages/konfid.html">
+                    <p class="form_confid" style="
+                    color: #fff; ">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных, а также соглашаетесь с условиями сотрудничества.</p>
+                </a>
+            </div>
+         </div>
+</header>
+
+<div class="portfolio_wrapper">
+    <div class="container">
+        <div class="content">
+
+          <div class="my_work_1 wrapper">
+            <div class="box blury-card" >
+              <img  src="../img/portfolio/flaby.png" alt="Blue Ridge Mountains">
+              <div class="frame">
+                <h2>Flaby</h2>
+                <p>Adaptive</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="my_work_2 wrapper">
+            <div class="box blury-card" >
+              <img src="../img/portfolio/food.png" alt="Blue Ridge Mountains">
+              <div class="frame">
+                <h2>Italian Food</h2>
+                <p>(1920x1080)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="my_work_3 wrapper">
+            <div class="box blury-card" >
+              <img src="../img/portfolio/mogo.png" alt="Blue Ridge Mountains">
+              <div class="frame">
+                <h2>MoGo</h2>
+                <p>Adaptive</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="my_work_4 wrapper">
+            <div class="box blury-card" >
+              <img src="../img/portfolio/smart.png" alt="Blue Ridge Mountains">
+              <div class="frame">
+                <h2>Smart Home</h2>
+                <p>Adaptive</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="my_work_5 wrapper">
+            <div class="box blury-card" >
+              <img src="../img/portfolio/wayup.png" alt="Blue Ridge Mountains">
+              <div class="frame">
+                <h2>My dream</h2>
+                <p>Adaptive</p>
+              </div>
+            </div>
+          </div>
+
+        <div class="my_work_6 wrapper">
+            <div class="box blury-card" >
+              <img src="../img/portfolio/airplane.png" alt="Blue Ridge Mountains">
+              <div class="frame">
+                <h2>Airplane</h2>
+                <p>Adaptive</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+</div>
+
+<footer class="element-animation footer_portfolio">
+    <div class="contacts">
+        <div class="contacts_title">Контакты</div>
+
+<div class="links_container">
+    <div class="telegram">
+
+        <img class="img_icon" src="../img/footer/telegram.png" alt="">
+
+        <a href="https://t.me/MeMuslim1">Задавайте вопросы в телеграм</a>
+
+</div>
+
+<div class="whatsapp">
+    <img class="img_icon" src="../img/footer/whatsapp.png" alt="">
+     <a href="tel:+1234567890"> Мой номер: +79280778106</a>
+    </div>
+
+<div id="githab" class="githab">
+    <img class="img_icon" src="../img/footer/github.png" alt="">
+    <a href="https://github.com/FlabyKare?tab=repositories">Мой GitHub профиль</a>
+</div>
+
+<div class="email">
+    <img class="img_icon" src="../img/footer/email.png" alt="">
+    <a href="mailto:beslansoblirov074@gmail.com">Моя почта</a>
+</div>
+</div>
+
+    </div>
+ </footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/mail.js"></script>
+
+</body>
+</html>
