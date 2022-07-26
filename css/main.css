@@ -39,6 +39,10 @@ body {
   width: 33.3%;
   height: 100%;
   padding: 10px;
+  cursor: pointer;
+}
+.wrapper * {
+  cursor: pointer;
 }
 
 .name {

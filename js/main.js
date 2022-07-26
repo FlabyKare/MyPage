@@ -176,6 +176,10 @@ $(document).ready(function($){
         window.open('https://flabykare.github.io/Airplane/', '_blank');
     });
 
+    $('.my_work_7').click(function(){
+        window.open('https://flabykare.github.io/Hotel/', '_blank');
+    });
+
     
 });
 

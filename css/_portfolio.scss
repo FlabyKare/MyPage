@@ -34,6 +34,10 @@ body {
   width: 33.3%;
   height: 100%;
   padding: 10px;
+  cursor: pointer;
+  *{
+    cursor: pointer;
+  }
 }
 
 .name {
@@ -64,7 +68,8 @@ body {
   0 11.2px 13.4px rgba(0, 0, 0, 0.036),
   0 20.9px 25.1px rgba(0, 0, 0, 0.043),
   0 50px 60px rgba(0, 0, 0, 0.06);
-  
+
+
   .hide { opacity: 0; }
   
   .frame {
