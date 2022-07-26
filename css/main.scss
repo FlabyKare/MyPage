@@ -57,7 +57,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     margin: 0;
 //    background-repeat: no-repeat;
     background-attachment: fixed;
+    scrollbar-color:#65b8ebe8 rgba(5, 109, 174, 0.968627451) ;
 
+    &::-webkit-scrollbar-button{
+        display: none;
+    }
+    scrollbar-width: 3px !important;
 
 
     @keyframes fade-in {
@@ -331,7 +336,9 @@ body {
     top: 2%;
     cursor: pointer;
 }
+.popup{
 
+}
 //.hidden_popup{
    // display: none !important;
 //}
@@ -367,9 +374,11 @@ body {
 .popup::-webkit-scrollbar-thumb {
   background-color: #056daef7;
   border-radius: 11em;
+  scrollbar-color:rgba(5, 109, 174, 0.968627451);
 }
 .popup::-webkit-scrollbar-thumb:hover {
   background-color: #65b8ebe8;
+  scrollbar-color:#65b8ebe8;
 }
 .popup {
     position: fixed;

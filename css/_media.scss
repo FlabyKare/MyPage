@@ -408,6 +408,7 @@ body {
         overflow-y: scroll !important;
         overflow-x: hidden !important;
         padding: 20px 10px !important;
+        
         .popup-title{
             font-size: 35px !important;
             padding: 35px 0 70px !important;
@@ -671,6 +672,7 @@ body {
 
 
     @media (min-width:1400px) {
+        
         .popup{
             width: 21% !important;
             height: 66% !important;
@@ -681,6 +683,8 @@ body {
             overflow-y: scroll !important;
             overflow-x: hidden !important;
             padding: 20px 10px !important;
+            
+            
             .popup-title{
                 font-size: 35px !important;
                 padding: 35px 0 70px !important;
