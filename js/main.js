@@ -9,14 +9,14 @@ function before_add() {
     fade_before_add.addClass('active_popup');
 }
 
-function active_remove() {
-    $('.popup-fade').removeClass('active_popup');
-}
+                function active_remove() {
+                    $('.popup-fade').removeClass    
+                }
 
 
-function active_add() {
-    $('.popup-fade').addClass('active_popup');
-}
+                function active_add() {
+                    $('.popup-fade').addClass('active_popup');
+                }
 
 $(document).ready(function($){
 
