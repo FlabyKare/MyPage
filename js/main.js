@@ -9,14 +9,14 @@ function before_add() {
     fade_before_add.addClass('active_popup');
 }
 
-                function active_remove() {
-                    $('.popup-fade').removeClass    
-                }
+function active_remove() {
+    $('.popup-fade').removeClass('active_popup');
+}
 
 
-                function active_add() {
-                    $('.popup-fade').addClass('active_popup');
-                }
+function active_add() {
+    $('.popup-fade').addClass('active_popup');
+}
 
 $(document).ready(function($){
 
@@ -175,8 +175,7 @@ $(document).ready(function($){
         $('.my_work_6').click(function(){
         window.open('https://flabykare.github.io/Airplane/', '_blank');
     });
-
-    $('.my_work_7').click(function(){
+        $('.my_work_7').click(function(){
         window.open('https://flabykare.github.io/Hotel/', '_blank');
     });
 
