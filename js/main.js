@@ -178,7 +178,9 @@ $(document).ready(function($){
         $('.my_work_7').click(function(){
         window.open('https://flabykare.github.io/Hotel/', '_blank');
     });
-
+    $('.my_work_8').click(function(){
+        window.open('https://flabykare.github.io/Metastorm/', '_blank');
+    });
     
 });
 
