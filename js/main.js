@@ -181,6 +181,9 @@ $(document).ready(function($){
     $('.my_work_8').click(function(){
         window.open('https://flabykare.github.io/Metastorm/', '_blank');
     });
+    $('.my_work_9').click(function(){
+        window.open('https://flabykare.github.io/SpiderShiba/', '_blank');
+    });
     
 });
 

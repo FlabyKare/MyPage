@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+
     <link rel="stylesheet" href="css/main.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
@@ -23,301 +24,324 @@
 
     <title>Webmaster</title>
 </head>
+
 <body>
 
-<header>
-    <div class="header_wrapper">
-        <nav class="head_links">
-            <a href="index.html" class="logo">Беслан Соблиров</a>
-            <div class="nav_links">
-                <a class="nav_link_item" href="pages/portfolio.html">Портфолио</a>
-                <a  class="message_for_user popup-open" style="--clr:#1e9bff" > <span>Связаться</span><i></i></a>
+    <header>
+        <div class="header_wrapper">
+            <nav class="head_links">
+                <a href="index.html" class="logo">Беслан Соблиров</a>
+                <div class="nav_links">
+                    <a class="nav_link_item" href="pages/portfolio.html">Портфолио</a>
+                    <a class="message_for_user popup-open" style="--clr:#1e9bff"> <span>Связаться</span><i></i></a>
+                </div>
+
+            </nav>
+
+
+            <div class="popup-fade">
+                <div class="popup_fade_before"></div>
+                <div class="popup">
+                    <div class="close_popup">
+                        <img class="close_icon" width="100%" src="img/close.png" alt="">
+                    </div>
+                    <div class="popup-title">Оставить заявку</div>
+                    <form>
+
+
+                        <!-- Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="Заказ с моего сайта">
+                        <input type="hidden" name="admin_email" value="beslansoblirov074@gmail.com">
+                        <input type="hidden" name="form_subject" value='"Заявка - Main"'>
+                        <!-- END Hidden Required Fields -->
+
+
+                        <input class="form_input form_name" type="text" name="Name" placeholder="Ваше имя" required
+                            minlength="4" maxlength="15">
+
+
+                        <input class="form_input form_tel tel" type="tel" name="Telephone"
+                            placeholder="+7 (XXX) XXX XX XX" required>
+
+                        <input class="form_input form_site" type="text" name="Site"
+                            placeholder="Сайт или соц. сеть (Если есть)">
+
+                        <input class="form_input form_btn popup-btn" type="submit" value="Оставить заявку">
+
+
+                    </form>
+                    <a class="form_link" target="_blank" href="pages/konfid.html">
+                        <p class="form_confid" style="
+                    color: #fff; ">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных, а также
+                            соглашаетесь с условиями сотрудничества.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="info_wrapper ">
+            <div class="info_container element-animation">
+                <div class="profession_wrapper">
+
+                    <div class="profession_title">Junior Frontend Developer</div>
+                    <div class="profession_img">
+                        <img src="img/selphi.jpg" alt="Моя фотография">
+                    </div>
+                    <div class="profession_title">Возраст: 17 лет</div>
+
+                </div>
+                <div class="skills">
+
+                    <div class="skills_title">Обо мне</div>
+                    <div class="skills_list">
+                        <p class="infome"> Обучаюсь Frontend-разработке с августа 2021 года. Прошёл несколько бесплатных
+                            курсов на "WayUp", умею делать слайдеры, форму обратной связи и многое другое. Работал на
+                            фриланс бирже <a target="_blank" href="https://kwork.ru/user/masterweb01">Kwork</a>. Также
+                            есть профиль на <a target="_blank"
+                                href="https://github.com/FlabyKare?tab=repositories">GitHub</a>. Готов изучать новые
+                            технологии, с которыми ещё не сталкивался.</p>
+                        <p class="ul">Что я использую:</p>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Bootstrap5</li>
+                            <li>Scss(Sass)</li>
+                            <li>JavaScript</li>
+                            <li>JQuery - использую</li>
+                            <li class="react">React - планирую освоить</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="card_wrapper">
+            <div class="card_item element-animation1">
+                <div class="card_title">Эконом - 399 руб</div>
+
+                <div class="card_title mt_cards">(1 страница)</div>
+                <div class="card_list">
+                    <ul>
+                        <li>Бесплатная консультация</li>
+                        <li>Верстка PSD макета</li>
+                        <li>Установка фавикона</li>
+                        <li>Загрузка на хостинг</li>
+                        <li>Лимит страниц: 2</li>
+                        <li>Срок: 1-2 дня</li>
+                    </ul>
+                </div>
+                <div class="card_btn card_btn1">Заказать</div>
             </div>
 
-        </nav>
+            <div class="card_item card_item2 element-animation2">
+                <div class="card_title">Стандарт - 999 руб</div>
+                <div class="card_title mt_cards">(1 страница)</div>
+                <div class="card_list">
+                    <ul>
+                        <li>Включено: "Эконом"</li>
+                        <li>Адаптивная вёрстка</li>
+                        <li>Верстка макета Figma</li>
+                        <li>Pixel Perfect</li>
+                        <li>Лимит страниц: 5</li>
+                        <li>Срок: 1-4 дней</li>
 
 
-        <div class="popup-fade">
-            <div class="popup_fade_before"></div>
-            <div class="popup">
-                <div class="close_popup">
-                    <img class="close_icon" width="100%" src="img/close.png" alt="">
+                    </ul>
                 </div>
-              <div class="popup-title">Оставить заявку</div>
-              <form>
-    
-    
+                <div class="card_btn card_btn2">Заказать</div>
+            </div>
+
+            <div class="card_item card_item3 element-animation3">
+                <div class="card_title">Бизнес - 1799 руб</div>
+
+                <div class="card_title mt_cards">(2 страницы)</div>
+                <div class="card_list card_list3">
+                    <ul>
+                        <li>Включено: "Эконом" + "Стандарт"</li>
+                        <li>Форма обратной связи</li>
+                        <li>Доменное имя</li>
+                        <li>Онлайн консультант</li>
+                        <li>Рассылка Email-писем</li>
+                        <li>Лимит страниц: 10+ </li>
+                        <li>Срок: до 2-ух недель (Зависит от объёма)</li>
+
+                    </ul>
+                </div>
+                <div class="card_btn card_btn3">Заказать</div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <div class="popup-btn1">
+        <div class="popup_fade_before"></div>
+        <div class="popup">
+            <div class="close_popup">
+                <img class="close_icon" width="100%" src="img/close.png" alt="">
+            </div>
+            <div class="popup-title">Эконом</div>
+            <form>
+
+
                 <!-- Hidden Required Fields -->
                 <input type="hidden" name="project_name" value="Заказ с моего сайта">
                 <input type="hidden" name="admin_email" value="beslansoblirov074@gmail.com">
-                <input type="hidden" name="form_subject" value='"Заявка - Main"'>
+                <input type="hidden" name="form_subject" value='Услуга - "Стандарт"'>
                 <!-- END Hidden Required Fields -->
-        
-        
-                    <input class="form_input form_name" type="text" name="Name"  placeholder="Ваше имя" required minlength="4" maxlength="15">
-                    
-        
-                    <input class="form_input form_tel tel" type="tel" name="Telephone" placeholder="+7 (XXX) XXX XX XX" required> 
-        
-                    <input class="form_input form_site" type="text" name="Site" placeholder="Сайт или соц. сеть (Если есть)" >
-        
-                    <input class="form_input form_btn popup-btn" type="submit" value="Оставить заявку">
-        
-        
-                  </form>
-                  <a class="form_link" target="_blank" href="pages/konfid.html">
-                    <p class="form_confid" style="
-                    color: #fff; ">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных, а также соглашаетесь с условиями сотрудничества.</p>
-                </a>
+
+
+                <input class="form_input form_name" type="text" name="Name" placeholder="Ваше имя" required
+                    minlength="4" maxlength="15">
+
+
+                <input class="form_input form_tel tel" type="tel" name="Telephone" placeholder="+7 (XXX) XXX XX XX"
+                    required>
+
+                <input class="form_input form_site" type="text" name="Site"
+                    placeholder="Сайт или соц. сеть (Если есть)">
+
+                <input class="form_input form_btn popup-btn" type="submit" value="Оставить заявку">
+
+
+            </form>
+            <a class="form_link" target="_blank" href="pages/konfid.html">
+                <p class="form_confid" style="
+            color: #fff; ">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных, а также
+                    соглашаетесь с моими условиями.</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="popup-btn2">
+        <div class="popup_fade_before"></div>
+        <div class="popup">
+            <div class="close_popup">
+                <img class="close_icon" width="100%" src="img/close.png" alt="">
             </div>
-         </div>
+            <div class="popup-title">Стандарт</div>
+            <form>
+
+
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="Заказ с моего сайта">
+                <input type="hidden" name="admin_email" value="beslansoblirov074@gmail.com">
+                <input type="hidden" name="form_subject" value='Услуга - "Стандарт"'>
+                <!-- END Hidden Required Fields -->
+
+
+                <input class="form_input form_name" type="text" name="Name" placeholder="Ваше имя" required
+                    minlength="4" maxlength="15">
+
+
+                <input class="form_input form_tel tel" type="tel" name="Telephone" placeholder="+7 (XXX) XXX XX XX"
+                    required>
+
+                <input class="form_input form_site" type="text" name="Site"
+                    placeholder="Сайт или соц. сеть (Если есть)">
+
+                <input class="form_input form_btn popup-btn" type="submit" value="Оставить заявку">
+
+
+            </form>
+            <a class="form_link" target="_blank" href="pages/konfid.html">
+                <p class="form_confid" style="
+            color: #fff; ">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных, а также
+                    соглашаетесь с моими условиями.</p>
+            </a>
+        </div>
     </div>
-</header>
 
-<main>
-
-<div class="info_wrapper ">
-    <div class="info_container element-animation">
-        <div class="profession_wrapper">
-
-            <div class="profession_title">Junior Frontend Developer</div>
-            <div class="profession_img">
-                <img src="img/selphi.jpg" alt="Моя фотография">
+    <div class="popup-btn3">
+        <div class="popup_fade_before"></div>
+        <div class="popup">
+            <div class="close_popup">
+                <img class="close_icon" width="100%" src="img/close.png" alt="">
             </div>
-            <div class="profession_title">Возраст: 17 лет</div>
+            <div class="popup-title">Бизнес</div>
+            <form>
 
+
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="Заказ с моего сайта">
+                <input type="hidden" name="admin_email" value="beslansoblirov074@gmail.com">
+                <input type="hidden" name="form_subject" value='Услуга - "Стандарт"'>
+                <!-- END Hidden Required Fields -->
+
+
+                <input class="form_input form_name" type="text" name="Name" placeholder="Ваше имя" required
+                    minlength="4" maxlength="15">
+
+
+                <input class="form_input form_tel tel" type="tel" name="Telephone" placeholder="+7 (XXX) XXX XX XX"
+                    required>
+
+                <input class="form_input form_site" type="text" name="Site"
+                    placeholder="Сайт или соц. сеть (Если есть)">
+
+                <input class="form_input form_btn popup-btn" type="submit" value="Оставить заявку">
+
+
+            </form>
+            <a class="form_link" target="_blank" href="pages/konfid.html">
+                <p class="form_confid" style="
+            color: #fff; ">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных, а также
+                    соглашаетесь с моими условиями.</p>
+            </a>
         </div>
-        <div class="skills">
+    </div>
 
-            <div class="skills_title">Обо мне</div>
-            <div class="skills_list">
-                <p class="infome">Обучаюсь Frontend-разработке с августа 2021 года, сверстал 5 макетов PSD. Прошёл несколько бесплатных курсов на "WayUp", умею делать слайдеры, форму обратной связи. Работал на фриланс бирже <a target="_blank" href="https://kwork.ru/user/masterweb01">Kwork</a> Также есть профиль на <a target="_blank" href="https://github.com/FlabyKare?tab=repositories">GitHub</a>. Готов изучать новые технологии, с которыми ещё не сталкивался.</p>
-                <p class="ul">Что я использую:</p>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>Bootstrap5</li>
-                    <li>Scss(Sass)</li>
-                    <li>JavaScript</li>
-                    <li>JQuery - использую</li>
-                    <li class="react">React - планирую освоить</li>
-                </ul>
+
+    <footer class="element-animation">
+        <div class="contacts">
+            <div class="contacts_title">Контакты</div>
+
+            <div class="links_container">
+                <div class="telegram">
+
+                    <img class="img_icon" src="img/footer/telegram.png" alt="">
+
+                    <a href="https://t.me/MeMuslim1">Задавайте вопросы в телеграм</a>
+
+                </div>
+
+                <div class="whatsapp">
+                    <img class="img_icon" src="img/footer/whatsapp.png" alt="">
+                    <a href="tel:+1234567890"> Мой номер: +79280778106</a>
+                </div>
+
+                <div id="githab" class="githab">
+                    <img class="img_icon" src="img/footer/github.png" alt="">
+                    <a href="https://github.com/FlabyKare?tab=repositories">Мой GitHub профиль</a>
+                </div>
+
+                <div class="email">
+                    <img class="img_icon" src="img/footer/email.png" alt="">
+                    <a href="mailto:beslansoblirov074@gmail.com">Моя почта</a>
+                </div>
             </div>
 
         </div>
-    </div>
-</div>
+    </footer>
 
 
-
-
-
-
-
-
-
-
-<div class="card_wrapper">
-    <div class="card_item element-animation1">
-        <div class="card_title">Эконом - 399 руб</div>
-
-        <div class="card_title mt_cards">(1 страница)</div>
-        <div class="card_list">
-            <ul>
-                <li>Бесплатная консультация</li>
-                <li>Верстка PSD макета</li>
-                <li>Установка фавикона</li>
-                <li>Загрузка на хостинг</li>
-                <li>Лимит страниц: 2</li>
-                <li>Срок: 1-2 дня</li>
-            </ul>
-        </div>
-        <div class="card_btn card_btn1">Заказать</div>
-    </div>
-
-    <div class="card_item card_item2 element-animation2">
-        <div class="card_title">Стандарт - 999 руб</div>
-        <div class="card_title mt_cards">(1 страница)</div>
-        <div class="card_list">
-            <ul>
-                <li>Включено: "Эконом"</li>
-                <li>Адаптивная вёрстка</li>
-                <li>Верстка макета Figma</li>
-                <li>Pixel Perfect</li>
-                <li>Лимит страниц: 5</li>
-                <li>Срок: 1-4 дней</li>
-
-
-            </ul>
-        </div>
-        <div class="card_btn card_btn2">Заказать</div>
-    </div>
-
-    <div class="card_item card_item3 element-animation3">
-        <div class="card_title">Бизнес - 1799 руб</div>
-
-        <div class="card_title mt_cards">(2 страницы)</div>
-        <div class="card_list card_list3">
-            <ul>
-                <li>Включено: "Эконом" + "Стандарт"</li>
-                <li>Форма обратной связи</li>
-                <li>Доменное имя</li>
-                <li>Онлайн консультант</li>
-                <li>Рассылка Email-писем</li>
-                <li>Лимит страниц: 10+ </li>
-                <li>Срок: до 2-ух недель (Зависит от объёма)</li>
-
-            </ul>
-        </div>
-        <div class="card_btn card_btn3">Заказать</div>
-    </div>
-
-</div>
-</main>
-
-
-
-<div class="popup-btn1">
-    <div class="popup_fade_before"></div>
-    <div class="popup">
-        <div class="close_popup">
-            <img class="close_icon" width="100%" src="img/close.png" alt="">
-        </div>
-      <div class="popup-title">Эконом</div>
-      <form>
-
-
-        <!-- Hidden Required Fields -->
-        <input type="hidden" name="project_name" value="Заказ с моего сайта">
-        <input type="hidden" name="admin_email" value="beslansoblirov074@gmail.com">
-        <input type="hidden" name="form_subject" value='Услуга - "Стандарт"'>
-        <!-- END Hidden Required Fields -->
-
-
-            <input class="form_input form_name" type="text" name="Name"  placeholder="Ваше имя" required minlength="4" maxlength="15">
-            
-
-            <input class="form_input form_tel tel" type="tel" name="Telephone" placeholder="+7 (XXX) XXX XX XX" required> 
-
-            <input class="form_input form_site" type="text" name="Site" placeholder="Сайт или соц. сеть (Если есть)" >
-
-            <input class="form_input form_btn popup-btn" type="submit" value="Оставить заявку">
-
-
-          </form>
-          <a class="form_link"  target="_blank" href="pages/konfid.html">
-            <p class="form_confid"  style="
-            color: #fff; ">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных, а также соглашаетесь с моими условиями.</p>
-        </a>
-    </div>
- </div>
-
-<div class="popup-btn2">
-    <div class="popup_fade_before"></div>
-    <div class="popup">
-        <div class="close_popup">
-            <img class="close_icon" width="100%" src="img/close.png" alt="">
-        </div>
-      <div class="popup-title">Стандарт</div>
-      <form>
-
-
-        <!-- Hidden Required Fields -->
-        <input type="hidden" name="project_name" value="Заказ с моего сайта">
-        <input type="hidden" name="admin_email" value="beslansoblirov074@gmail.com">
-        <input type="hidden" name="form_subject" value='Услуга - "Стандарт"'>
-        <!-- END Hidden Required Fields -->
-
-
-            <input class="form_input form_name" type="text" name="Name"  placeholder="Ваше имя" required minlength="4" maxlength="15">
-            
-
-            <input class="form_input form_tel tel" type="tel" name="Telephone" placeholder="+7 (XXX) XXX XX XX" required> 
-
-            <input class="form_input form_site" type="text" name="Site" placeholder="Сайт или соц. сеть (Если есть)" >
-
-            <input class="form_input form_btn popup-btn" type="submit" value="Оставить заявку">
-
-
-          </form>
-          <a class="form_link"  target="_blank" href="pages/konfid.html">
-            <p class="form_confid"  style="
-            color: #fff; ">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных, а также соглашаетесь с моими условиями.</p>
-        </a>
-    </div>
- </div>
-
- <div class="popup-btn3">
-    <div class="popup_fade_before"></div>
-    <div class="popup">
-        <div class="close_popup">
-            <img class="close_icon" width="100%" src="img/close.png" alt="">
-        </div>
-      <div class="popup-title">Бизнес</div>
-      <form>
-
-
-        <!-- Hidden Required Fields -->
-        <input type="hidden" name="project_name" value="Заказ с моего сайта">
-        <input type="hidden" name="admin_email" value="beslansoblirov074@gmail.com">
-        <input type="hidden" name="form_subject" value='Услуга - "Стандарт"'>
-        <!-- END Hidden Required Fields -->
-
-
-            <input class="form_input form_name" type="text" name="Name"  placeholder="Ваше имя" required minlength="4" maxlength="15">
-            
-
-            <input class="form_input form_tel tel" type="tel" name="Telephone" placeholder="+7 (XXX) XXX XX XX" required> 
-
-            <input class="form_input form_site" type="text" name="Site" placeholder="Сайт или соц. сеть (Если есть)" >
-
-            <input class="form_input form_btn popup-btn" type="submit" value="Оставить заявку">
-
-
-          </form>
-          <a class="form_link"  target="_blank" href="pages/konfid.html">
-            <p class="form_confid"  style="
-            color: #fff; ">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных, а также соглашаетесь с моими условиями.</p>
-        </a>
-    </div>
- </div>
-
-
- <footer class="element-animation">
-    <div class="contacts">
-        <div class="contacts_title">Контакты</div>
-
-<div class="links_container">
-    <div class="telegram">
-
-        <img class="img_icon" src="img/footer/telegram.png" alt="">
-
-        <a href="https://t.me/MeMuslim1">Задавайте вопросы в телеграм</a>
-
-</div>
-
-<div class="whatsapp">
-    <img class="img_icon" src="img/footer/whatsapp.png" alt="">
-     <a href="tel:+1234567890"> Мой номер: +79280778106</a>
-    </div>
-
-<div id="githab" class="githab">
-    <img class="img_icon" src="img/footer/github.png" alt="">
-    <a href="https://github.com/FlabyKare?tab=repositories">Мой GitHub профиль</a>
-</div>
-
-<div class="email">
-    <img class="img_icon" src="img/footer/email.png" alt="">
-    <a href="mailto:beslansoblirov074@gmail.com">Моя почта</a>
-</div>
-</div>
-
-    </div>
- </footer>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
+
 </html>
