@@ -187,6 +187,9 @@ $(document).ready(function($){
     $('.my_work_10').click(function(){
         window.open('https://flabykare.github.io/Antools/', '_blank');
     });
+    $('.my_work_11').click(function(){
+        window.open('https://flabykare.github.io/Sneakers/', '_blank');
+    });
 });
 
 
